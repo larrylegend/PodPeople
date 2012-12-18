@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C8D266221681023700C4396D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8D266211681023700C4396D /* UIKit.framework */; };
+		C8D266241681023700C4396D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8D266231681023700C4396D /* Foundation.framework */; };
+		C8D266261681023700C4396D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8D266251681023700C4396D /* CoreGraphics.framework */; };
+		C8D2662C1681023700C4396D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C8D2662A1681023700C4396D /* InfoPlist.strings */; };
+		C8D2662E1681023700C4396D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C8D2662D1681023700C4396D /* main.m */; };
+		C8D266321681023700C4396D /* HOLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C8D266311681023700C4396D /* HOLAppDelegate.m */; };
+		C8D266341681023700C4396D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C8D266331681023700C4396D /* Default.png */; };
+		C8D266361681023700C4396D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C8D266351681023700C4396D /* Default@2x.png */; };
+		C8D266381681023700C4396D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C8D266371681023700C4396D /* Default-568h@2x.png */; };
+		C8D2663B1681023700C4396D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8D266391681023700C4396D /* MainStoryboard.storyboard */; };
+		C8D2663E1681023700C4396D /* HOLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8D2663D1681023700C4396D /* HOLViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C8D2661D1681023700C4396D /* PodPeople.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PodPeople.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8D266211681023700C4396D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C8D266231681023700C4396D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C8D266251681023700C4396D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C8D266291681023700C4396D /* PodPeople-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PodPeople-Info.plist"; sourceTree = "<group>"; };
+		C8D2662B1681023700C4396D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C8D2662D1681023700C4396D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C8D2662F1681023700C4396D /* PodPeople-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PodPeople-Prefix.pch"; sourceTree = "<group>"; };
+		C8D266301681023700C4396D /* HOLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HOLAppDelegate.h; sourceTree = "<group>"; };
+		C8D266311681023700C4396D /* HOLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HOLAppDelegate.m; sourceTree = "<group>"; };
+		C8D266331681023700C4396D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C8D266351681023700C4396D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C8D266371681023700C4396D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C8D2663A1681023700C4396D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		C8D2663C1681023700C4396D /* HOLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HOLViewController.h; sourceTree = "<group>"; };
+		C8D2663D1681023700C4396D /* HOLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HOLViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8D2661A1681023700C4396D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8D266221681023700C4396D /* UIKit.framework in Frameworks */,
+				C8D266241681023700C4396D /* Foundation.framework in Frameworks */,
+				C8D266261681023700C4396D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C8D266121681023700C4396D = {
+			isa = PBXGroup;
+			children = (
+				C8D266271681023700C4396D /* PodPeople */,
+				C8D266201681023700C4396D /* Frameworks */,
+				C8D2661E1681023700C4396D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C8D2661E1681023700C4396D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8D2661D1681023700C4396D /* PodPeople.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8D266201681023700C4396D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8D266211681023700C4396D /* UIKit.framework */,
+				C8D266231681023700C4396D /* Foundation.framework */,
+				C8D266251681023700C4396D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8D266271681023700C4396D /* PodPeople */ = {
+			isa = PBXGroup;
+			children = (
+				C8D266301681023700C4396D /* HOLAppDelegate.h */,
+				C8D266311681023700C4396D /* HOLAppDelegate.m */,
+				C8D266391681023700C4396D /* MainStoryboard.storyboard */,
+				C8D2663C1681023700C4396D /* HOLViewController.h */,
+				C8D2663D1681023700C4396D /* HOLViewController.m */,
+				C8D266281681023700C4396D /* Supporting Files */,
+			);
+			path = PodPeople;
+			sourceTree = "<group>";
+		};
+		C8D266281681023700C4396D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8D266291681023700C4396D /* PodPeople-Info.plist */,
+				C8D2662A1681023700C4396D /* InfoPlist.strings */,
+				C8D2662D1681023700C4396D /* main.m */,
+				C8D2662F1681023700C4396D /* PodPeople-Prefix.pch */,
+				C8D266331681023700C4396D /* Default.png */,
+				C8D266351681023700C4396D /* Default@2x.png */,
+				C8D266371681023700C4396D /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8D2661C1681023700C4396D /* PodPeople */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8D266411681023700C4396D /* Build configuration list for PBXNativeTarget "PodPeople" */;
+			buildPhases = (
+				C8D266191681023700C4396D /* Sources */,
+				C8D2661A1681023700C4396D /* Frameworks */,
+				C8D2661B1681023700C4396D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PodPeople;
+			productName = PodPeople;
+			productReference = C8D2661D1681023700C4396D /* PodPeople.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8D266141681023700C4396D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HOL;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "House of Legend";
+			};
+			buildConfigurationList = C8D266171681023700C4396D /* Build configuration list for PBXProject "PodPeople" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C8D266121681023700C4396D;
+			productRefGroup = C8D2661E1681023700C4396D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8D2661C1681023700C4396D /* PodPeople */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C8D2661B1681023700C4396D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8D2662C1681023700C4396D /* InfoPlist.strings in Resources */,
+				C8D266341681023700C4396D /* Default.png in Resources */,
+				C8D266361681023700C4396D /* Default@2x.png in Resources */,
+				C8D266381681023700C4396D /* Default-568h@2x.png in Resources */,
+				C8D2663B1681023700C4396D /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8D266191681023700C4396D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8D2662E1681023700C4396D /* main.m in Sources */,
+				C8D266321681023700C4396D /* HOLAppDelegate.m in Sources */,
+				C8D2663E1681023700C4396D /* HOLViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C8D2662A1681023700C4396D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8D2662B1681023700C4396D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C8D266391681023700C4396D /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8D2663A1681023700C4396D /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C8D2663F1681023700C4396D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C8D266401681023700C4396D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C8D266421681023700C4396D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PodPeople/PodPeople-Prefix.pch";
+				INFOPLIST_FILE = "PodPeople/PodPeople-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C8D266431681023700C4396D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PodPeople/PodPeople-Prefix.pch";
+				INFOPLIST_FILE = "PodPeople/PodPeople-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8D266171681023700C4396D /* Build configuration list for PBXProject "PodPeople" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8D2663F1681023700C4396D /* Debug */,
+				C8D266401681023700C4396D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8D266411681023700C4396D /* Build configuration list for PBXNativeTarget "PodPeople" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8D266421681023700C4396D /* Debug */,
+				C8D266431681023700C4396D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8D266141681023700C4396D /* Project object */;
+}
