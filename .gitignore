@@ -1,7 +1,5 @@
 Pods/
 Podfile.lock
 .DS_Store
-*.xcworkspace
-!default.xcworkspace
 xcuserdata
 *.xcuserstate
